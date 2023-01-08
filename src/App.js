@@ -23,6 +23,9 @@ function App() {
               <a href='https://www.sweetsound.co.za/musiq' className="btn-projects" target='_blank' rel="noreferrer">SS Musiq Website</a>
               <p>Music store. HTML, CSS, Javascript, PHP, MySQL</p>
             </div>
+            <button className="close btn" onClick={() => setCardSdVisible(false)}>
+            <Icons.FaTimes/>
+          </button>
           </div>
         </div>
       )}
